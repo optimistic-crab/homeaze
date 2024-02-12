@@ -188,6 +188,7 @@ tr {
     align-self: flex-end;
     /* margin-bottom: var(--element-spacing); */
     /* margin-top: 1rem; */
+    margin-bottom: calc(var(--element-spacing) - 1rem);
 }
 
 .tile-wrapper {
@@ -270,7 +271,7 @@ tr {
         display: grid;
         margin: 0;
         top: 0;
-        padding: 0 var(--page-padding-x);
+        padding: 0;
         text-align: start;
         line-height: 100%;
         font-size: 1.8rem;
@@ -319,7 +320,7 @@ tr {
 
     .product-title {
         align-content: start;
-        margin-top: var(--element-spacing);
+        /* margin-top: var(--element-spacing); */
     }
 
     .tile-wrapper .tile {
