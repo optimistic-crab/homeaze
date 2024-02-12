@@ -77,12 +77,20 @@ tr {
     overflow: hidden;
 }
 
-tr:has(td:hover, td:active) {
+.page-wrapper tr:has(td:hover, td:active) {
     background-color: #aaa;
 }
 
-th {
+.table-wrapper th {
     border-bottom: 4px solid rgba(0, 0, 0, 0.05);
+}
+.table-wrapper.vertical{
+    padding-top: var(--element-spacing-related);
+    padding-bottom: var(--element-spacing-related);
+}
+.table-wrapper.vertical th{
+    border-bottom: none;
+    border-right: 4px solid rgba(0, 0, 0, 0.05);
 }
 
 /* ******************** Custom Elements ******************** */
@@ -179,7 +187,7 @@ th {
     text-align: center;
     align-self: flex-end;
     /* margin-bottom: var(--element-spacing); */
-    margin-top: ;
+    /* margin-top: 1rem; */
 }
 
 .tile-wrapper {
