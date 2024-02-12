@@ -59,7 +59,7 @@ li {
     border-radius: 1rem;
 }
 
-table {
+.table-wrapper table {
     padding: 1rem;
     width: 100%;
     /* text-align: left; */
